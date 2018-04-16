@@ -1,0 +1,22 @@
+<div class="container-fluid killi">
+<form (ngSubmit)="onRegister()" class="lgn">
+  <h2 class="page-header">Register</h2>
+  <div class="form-group">
+    <label for="">Name: </label>
+    <input type="text" class="form-control" name="name" [(ngModel)]="name">
+  </div>
+  <div class="form-group">
+    <label for="">Email ID: </label>
+    <input type="email" class="form-control" name="email" [(ngModel)]="email">
+  </div>
+  <div class="form-group">
+    <label for="">UserName: </label>
+    <input type="text" class="form-control" name="username" [(ngModel)]="username">
+  </div>
+  <div class="form-group">
+    <label for="">Password: </label>
+    <input type="password" class="form-control" name="password" [(ngModel)]="password">
+  </div>
+  <button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</div>
